@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QMainWindow" name="Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>342</width>
+    <height>191</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Window</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="grid_center">
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="group">
+      <property name="title">
+       <string>Group</string>
+      </property>
+      <layout class="QGridLayout" name="grid_g">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="gr">
+         <property name="text">
+          <string>Read</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="gw">
+         <property name="text">
+          <string>Write</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="gx">
+         <property name="text">
+          <string>Execute</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <layout class="QHBoxLayout" name="layout">
+      <item>
+       <widget class="QLabel" name="_perm">
+        <property name="text">
+         <string>Permission</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="perm">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maxLength">
+         <number>3</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDialogButtonBox" name="buttons">
+        <property name="standardButtons">
+         <set>QDialogButtonBox::Close|QDialogButtonBox::Ok</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="world">
+      <property name="title">
+       <string>World</string>
+      </property>
+      <layout class="QGridLayout" name="grid_w">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="wr">
+         <property name="text">
+          <string>Read</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="ww">
+         <property name="text">
+          <string>Write</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="wx">
+         <property name="text">
+          <string>Execute</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="user">
+      <property name="title">
+       <string>User</string>
+      </property>
+      <layout class="QGridLayout" name="grid_u">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="ur">
+         <property name="text">
+          <string>Read</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="uw">
+         <property name="text">
+          <string>Write</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="ux">
+         <property name="text">
+          <string>Execute</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>ur</tabstop>
+  <tabstop>uw</tabstop>
+  <tabstop>ux</tabstop>
+  <tabstop>gr</tabstop>
+  <tabstop>gw</tabstop>
+  <tabstop>gx</tabstop>
+  <tabstop>wr</tabstop>
+  <tabstop>ww</tabstop>
+  <tabstop>wx</tabstop>
+  <tabstop>perm</tabstop>
+  <tabstop>buttons</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
