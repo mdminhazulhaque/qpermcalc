@@ -4,7 +4,7 @@ QPermCalc
 A Linux/UNIX numeric permission calculator
 
 # Screenshot
-[Imgur](http://i.imgur.com/pRdd4Iu.png)
+![QPermCalc](http://i.imgur.com/pRdd4Iu.png "QPermCalc")
 
 # TODO
 Add counter for
